@@ -1,0 +1,45 @@
+﻿Dim ARRECMAC3detail1 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail1Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0044", ARRECMAC3detail1
+Set ARRECMAC3detail1Fields = ARRECMAC3detail1.Fields
+
+Dim ARRECMAC3detail2 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail2Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0045", ARRECMAC3detail2
+Set ARRECMAC3detail2Fields = ARRECMAC3detail2.Fields
+
+Dim ARRECMAC3detail3 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail3Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0043", ARRECMAC3detail3
+Set ARRECMAC3detail3Fields = ARRECMAC3detail3.Fields
+
+Dim ARRECMAC3detail4 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail4Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0061", ARRECMAC3detail4
+Set ARRECMAC3detail4Fields = ARRECMAC3detail4.Fields
+
+Dim ARRECMAC3detail5 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail5Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0406", ARRECMAC3detail5
+Set ARRECMAC3detail5Fields = ARRECMAC3detail5.Fields
+
+Dim ARRECMAC3detail6 As AccpacCOMAPI.AccpacView
+Dim ARRECMAC3detail6Fields As AccpacCOMAPI.AccpacViewFields
+mDBLinkCmpRW.OpenView "AR0170", ARRECMAC3detail6
+Set ARRECMAC3detail6Fields = ARRECMAC3detail6.Fields
+
+ARRECMAC3batch.Compose Array(ARRECMAC3header)
+
+ARRECMAC3header.Compose Array(ARRECMAC3batch, ARRECMAC3detail3, ARRECMAC3detail1, ARRECMAC3detail5, ARRECMAC3detail6)
+
+ARRECMAC3detail1.Compose Array(ARRECMAC3header, ARRECMAC3detail2, ARRECMAC3detail4)
+
+ARRECMAC3detail2.Compose Array(ARRECMAC3detail1)
+
+ARRECMAC3detail3.Compose Array(ARRECMAC3header)
+
+ARRECMAC3detail4.Compose Array(ARRECMAC3batch, ARRECMAC3header, ARRECMAC3detail3, ARRECMAC3detail1, ARRECMAC3detail2)
+
+ARRECMAC3detail5.Compose Array(ARRECMAC3header)
+
+ARRECMAC3detail6.Compose Array(ARRECMAC3header)

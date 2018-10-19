@@ -1,0 +1,15 @@
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\SASM.exe.config
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\SASM.exe
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\SASM.pdb
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\ACCPAC.Advantage.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\TableDependency.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\TableDependency.SqlClient.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\x86\Debug\ACCPAC.Advantage.COMSVR.Interop.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Monitor_.resources
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\x86\Debug\Monitor.csproj.GenerateResource.Cache
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\x86\Debug\SASM.exe
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\x86\Debug\SASM.pdb

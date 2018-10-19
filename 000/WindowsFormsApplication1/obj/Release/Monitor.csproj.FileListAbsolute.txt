@@ -1,0 +1,45 @@
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\TableDependency.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\TableDependency.SqlClient.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\Monitor.csproj.GenerateResource.Cache
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Monitor_.resources
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.exe.config
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.exe
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.pdb
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\SASM.exe
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\SASM.pdb
+C:\Users\asms-accpac-1\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.COMSVR.Interop.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.exe.config
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\SASM.exe
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\SASM.pdb
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.exe
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\SASM.pdb
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\TableDependency.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\TableDependency.SqlClient.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.COMSVR.Interop.dll
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Monitor_.resources
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Apolack\Documents\Visual Studio 2015\Projects\000\WindowsFormsApplication1\obj\Release\Monitor.csproj.GenerateResource.Cache
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\SASM.exe.config
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\SASM.exe
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\SASM.pdb
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\TableDependency.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\TableDependency.SqlClient.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\bin\Release\ACCPAC.Advantage.COMSVR.Interop.dll
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Monitor_.resources
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\Release\Monitor.csproj.GenerateResource.Cache
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\Release\SASM.exe
+C:\Users\ASMS-ACCPAC-1\Documents\Test\000\WindowsFormsApplication1\obj\Release\SASM.pdb
