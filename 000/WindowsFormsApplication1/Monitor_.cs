@@ -42,11 +42,11 @@ namespace SyncMon
         bool hidden = false;
         private bool monitorRunning = false;
 
-        //static string smaDbserv = "Data Source=SMA-DBSRV\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        //static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        //static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        //static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
-        static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         SqlTableDependency<SqlNotify_Pay> tableDependPay;
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
@@ -2065,7 +2065,7 @@ namespace SyncMon
                         LogOperation("Customer Id: " + customerId, 1);
                         var gl = intLink.GetCreditGlID((transid + 1).ToString());
 
-                        if (gl == 5150)
+                        if (gl == 5321)
                         {
                             ftype = "SLF";
                         }
@@ -2823,7 +2823,7 @@ namespace SyncMon
                 var json = serialize.Serialize(stat);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                client.UploadString("http://sma-dbsrv.sma.gov.jm/api/IntegrationService.asmx/SetMonStat", "POST", json);
+                client.UploadString("http://server-erp.sma.gov.jm:1786/IntegrationService.asmx/SetMonStat", "POST", json);
             }
             catch (Exception ex)
             {
@@ -2862,7 +2862,7 @@ namespace SyncMon
                 var json = serialize.Serialize(param);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                string id = client.UploadString("http://sma-dbsrv.sma.gov.jm/api/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
+                string id = client.UploadString("http://server-erp.sma.gov.jm:1786/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
             }
             catch (Exception ex)
             {
