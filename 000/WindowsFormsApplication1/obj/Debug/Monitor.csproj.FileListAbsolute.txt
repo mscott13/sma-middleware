@@ -304,3 +304,21 @@ C:\Users\mscott\Desktop\SAIMver2.2_Test\SAIMver2.2_Test\000\WindowsFormsApplicat
 C:\Users\mscott\Desktop\SAIMver2.2_Test\SAIMver2.2_Test\000\WindowsFormsApplication1\obj\Debug\Monitor.csproj.ResolveComReference.cache
 C:\Users\mscott\Desktop\SAIMver2.2_Test\SAIMver2.2_Test\000\WindowsFormsApplication1\obj\Debug\SyncMon.exe
 C:\Users\mscott\Desktop\SAIMver2.2_Test\SAIMver2.2_Test\000\WindowsFormsApplication1\obj\Debug\SyncMon.pdb
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\SyncMon.exe.config
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\SyncMon.exe
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\SyncMon.pdb
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\ACCPAC.Advantage.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\TableDependency.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\TableDependency.SqlClient.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\bin\Debug\ACCPAC.Advantage.COMSVR.Interop.dll
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\Monitor.csprojAssemblyReference.cache
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\SyncMon.Monitor_.resources
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\SyncMon.Properties.Resources.resources
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\Monitor.csproj.GenerateResource.cache
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\Monitor.csproj.CopyComplete
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\SyncMon.exe
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\Debug\SyncMon.pdb

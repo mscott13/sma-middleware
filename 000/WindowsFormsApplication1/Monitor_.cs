@@ -42,8 +42,8 @@ namespace SyncMon
         bool hidden = false;
         private bool monitorRunning = false;
 
-        static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         //static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
         //static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
