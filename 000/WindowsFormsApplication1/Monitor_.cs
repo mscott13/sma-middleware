@@ -36,7 +36,7 @@ namespace SyncMon
         public const int RECEIPT = 11;
         public const string ONE_DAY = "1";
         public const int RESET_FREQUENCY = 86400;
-        public const string SAGE_COMPANY = "SMJLTD";
+        public const string SAGE_COMPANY = "SANLTD";
 
         private int Code = 21;
         bool hidden = false;

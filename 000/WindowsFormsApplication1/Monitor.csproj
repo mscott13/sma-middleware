@@ -97,6 +97,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>.\ACCPAC.Advantage.Types.dll</HintPath>
     </Reference>
+    <Reference Include="Interop.AccpacCOMAPI">
+      <HintPath>..\..\..\..\..\Documents\Interop.AccpacCOMAPI.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Extensions" />
