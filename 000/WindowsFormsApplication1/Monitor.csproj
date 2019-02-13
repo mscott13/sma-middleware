@@ -98,7 +98,7 @@
       <HintPath>.\ACCPAC.Advantage.Types.dll</HintPath>
     </Reference>
     <Reference Include="Interop.AccpacCOMAPI">
-      <HintPath>..\..\..\..\..\Documents\Interop.AccpacCOMAPI.dll</HintPath>
+      <HintPath>..\Interop.AccpacCOMAPI.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
