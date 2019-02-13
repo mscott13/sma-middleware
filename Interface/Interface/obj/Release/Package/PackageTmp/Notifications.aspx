@@ -1085,7 +1085,7 @@
             function GetRate() {
 
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetRate',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetRate',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1104,7 +1104,7 @@
 
             function GetTransferredInvoiceMessages() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/InvoiceTransferredMessages',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/InvoiceTransferredMessages',
                     type: 'post',
                     contentType: 'application/json',
                     data: {},
@@ -1123,7 +1123,7 @@
 
             function GetTransferredPaymentMessages() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/PaymentTransferredMessages',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/PaymentTransferredMessages',
                     type: 'post',
                     contentType: 'application/json',
                     data: {},
@@ -1145,7 +1145,7 @@
 
             function GetCreatedCustomerMessages() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/CustomerCreatedMessages',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/CustomerCreatedMessages',
                     type: 'post',
                     contentType: 'application/json',
                     data: {},
@@ -1164,7 +1164,7 @@
 
             function GetPendingInvoiceMessages() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/PendingInvoiceMessages',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/PendingInvoiceMessages',
                     type: 'post',
                     contentType: 'application/json',
                     data: {},
@@ -1185,7 +1185,7 @@
             function svc_local_GetRate() {
 
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetRate',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetRate',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1203,7 +1203,7 @@
 
             function InvoiceCount() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetInvoiceCount',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetInvoiceCount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1220,7 +1220,7 @@
 
             function isOnline() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/IntegrationService.asmx/GetMonStat',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/IntegrationService.asmx/GetMonStat',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1249,7 +1249,7 @@
 
             function PaymentCount() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetPaymentCount',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetPaymentCount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1265,7 +1265,7 @@
 
             function CustomerCount() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetCustomerCount',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetCustomerCount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1283,7 +1283,7 @@
 
             function PendingInvCount() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetPendingCount',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetPendingCount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1299,7 +1299,7 @@
 
             function InvoiceDetails() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetInvoiceDetail',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetInvoiceDetail',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1343,7 +1343,7 @@
 
             function CancellationAndMemos() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetCancellationsAndMemos',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetCancellationsAndMemos',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1362,7 +1362,7 @@
 
             function ReceiptDetails() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetReceiptDetail',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetReceiptDetail',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -1390,7 +1390,7 @@
 
             function InvoiceBatchTotal() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetInvoiceTotalAmount',
+                    url: 'http://server-erp2.sma.gov.jm:1786/api/integrationservice.asmx/GetInvoiceTotalAmount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
