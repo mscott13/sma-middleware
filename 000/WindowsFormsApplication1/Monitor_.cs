@@ -42,11 +42,11 @@ namespace SyncMon
         bool hidden = false;
         private bool monitorRunning = false;
 
-        //static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        //static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
-        static string smaDbserv = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        //static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        //static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         SqlTableDependency<SqlNotify_Pay> tableDependPay;
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
@@ -1500,7 +1500,7 @@ namespace SyncMon
                     LogOperation("Incoming Invoice", 2);
                     InvoiceInfo invoiceInfo = new InvoiceInfo();
 
-                    while (invoiceInfo.amount == 0)
+                    while (invoiceInfo.amount == 0 && invoiceInfo.Glid == 0)
                     {
                         invoiceInfo = intLink.getInvoiceDetails(docInfo.OriginalDocumentID);
                         Thread.Sleep(1000);
@@ -2823,7 +2823,7 @@ namespace SyncMon
                 var json = serialize.Serialize(stat);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                client.UploadString("http://server-erp.sma.gov.jm:1786/IntegrationService.asmx/SetMonStat", "POST", json);
+                client.UploadString("http://localhost:8080/IntegrationService.asmx/SetMonStat", "POST", json);
             }
             catch (Exception ex)
             {
@@ -2862,7 +2862,7 @@ namespace SyncMon
                 var json = serialize.Serialize(param);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                string id = client.UploadString("http://server-erp.sma.gov.jm:1786/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
+                string id = client.UploadString("http://localhost:8080/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
             }
             catch (Exception ex)
             {
@@ -3352,8 +3352,10 @@ namespace SyncMon
                     LogOperation("Generating Annual Deferred Income Report...", 2);
                     GenRptRequest("Annual");
                     //here we set the next Report Generation Date
+                    int es = DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month) - DateTime.Now.Day;
+                    es++;
                     DateTime nextGenDate = new DateTime(DateTime.Now.Year + 1, 4, 2);
-                    nextGenDate = nextGenDate.AddHours(3);
+                    nextGenDate = nextGenDate.AddHours(2);
                     intLink.SetNextGenDate("Annual", nextGenDate);
                     LogOperation("Annual Deferred Report Generated.", 1);
                 }

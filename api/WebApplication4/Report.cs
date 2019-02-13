@@ -354,15 +354,12 @@ namespace WebApplication4
                 tot_toRev = tot_toRev + Math.Round(toRevAmt, 2);
             }
 
-            if (month == 3 && year == 2018)
-            {
-                marine_SubT_balBFwd = 2181581.04M;
-                marine_SubT_toRev = marine_SubT_closingBal - marine_SubT_balBFwd - marine_SubT_fromRev;
-                other_SubT_balBFwd = 625410.33M;
-                other_SubT_toRev = other_SubT_closingBal - other_SubT_balBFwd - other_SubT_fromRev;
-                tot_balBFwd = 106986679.21M;
-                tot_toRev = tot_closingBal - tot_balBFwd - tot_fromRev;
-            }
+            //if (month == 3 && year == 2018)
+            //{
+            //    marine_SubT_balBFwd = 2181581.04M;
+            //    other_SubT_balBFwd = 625410.33M;
+            //    tot_balBFwd = 106986679.21M;
+            //}
 
             cell_category.subT_budget = formatMoney(cell_SubT_budget);
             cell_category.subT_invoiceTotal = formatMoney(cell_SubT_invoiceTotal);
@@ -556,9 +553,9 @@ namespace WebApplication4
 
         public void createPdfReport(string ReportType, DeferredData Report, DateTime startDate)
         {
-            //string path_local = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\pdf\" + ReportType + "DefferedIncomeReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
-            string path_local = @"C:\inetpub\wwwroot\Interface\pdf\" + ReportType + "DefferedIncomeReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
-            
+            //string path_local = @"C:\inetpub\wwwroot\Interface\pdf\" + ReportType + "DefferedIncomeReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
+            string path_local = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\pdf\" + ReportType + "DefferedIncomeReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
+
             // Document doc = new Document(iTextSharp.text.PageSize._11X17, 10, 10, 42, 35);
             Document doc = new Document(iTextSharp.text.PageSize.LEDGER);
             try
@@ -578,7 +575,8 @@ namespace WebApplication4
 
             doc.Open();
 
-            var imagePath = @"C:\inetpub\wwwroot\Interface\spec.jpg";
+            //var imagePath = @"C:\inetpub\wwwroot\Interface\spec.jpg";
+            var imagePath = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\spec.jpg";
             iTextSharp.text.Image PNG = iTextSharp.text.Image.GetInstance(imagePath);
             PNG.ScaleToFit(100f, 100f);
             PNG.Alignment = 1;
@@ -674,9 +672,9 @@ namespace WebApplication4
 
         public void createPdfTotalsReport(String ReportType, DeferredData Report, DateTime startDate)
         {
-            //string path_local = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\pdf\" + ReportType + "DefferedIncomeSummaryReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
-            string path_local = @"C:\inetpub\wwwroot\Interface\pdf\" + ReportType + "DefferedIncomeSummaryReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
-            
+            //string path_local = @"C:\inetpub\wwwroot\Interface\pdf\" + ReportType + "DefferedIncomeSummaryReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
+            string path_local = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\pdf\" + ReportType + "DefferedIncomeSummaryReport" + startDate.Year.ToString() + startDate.Month.ToString("00") + "01.pdf";
+
             // Document doc = new Document(iTextSharp.text.PageSize._11X17, 10, 10, 42, 35);
             Document doc = new Document(iTextSharp.text.PageSize.LETTER, 0, 0, 20, 0);
             try
@@ -699,7 +697,8 @@ namespace WebApplication4
             doc.Add(newLine);
             doc.Add(newLine);
             doc.Add(newLine);
-            var imagePath = @"C:\inetpub\wwwroot\Interface\spec.jpg";
+            //var imagePath = @"C:\inetpub\wwwroot\Interface\spec.jpg";
+            var imagePath = @"C:\Users\asms-accpac-2\Desktop\SAIMver2.1_Test\Interface\Interface\spec.jpg";
             iTextSharp.text.Image PNG = iTextSharp.text.Image.GetInstance(imagePath);
             PNG.ScaleToFit(100f, 100f);
             PNG.Alignment = 1;
