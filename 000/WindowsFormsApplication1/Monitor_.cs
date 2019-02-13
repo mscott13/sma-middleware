@@ -45,8 +45,8 @@ namespace SyncMon
         //static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
         //static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
-        static string smaDbserv = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = "Data Source=SERVER-ERP2\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = "Data Source=SERVER-ERP2\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         SqlTableDependency<SqlNotify_Pay> tableDependPay;
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
