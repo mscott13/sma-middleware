@@ -127,6 +127,7 @@
     <Compile Include="CreditNoteInfo.cs" />
     <Compile Include="DataWrapper.cs" />
     <Compile Include="DeferredData.cs" />
+    <Compile Include="FileLog.cs" />
     <Compile Include="InvoiceList.cs" />
     <Compile Include="PaymentInfo.cs" />
     <Compile Include="Data.cs" />

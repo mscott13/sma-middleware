@@ -196,9 +196,9 @@ namespace SyncMon
 
         void LogOperation(string message, int breaks)
         {
-            if (this.InvokeRequired)
+            if (InvokeRequired)
             {
-                this.BeginInvoke(new Action<string, int>(LogOperation), new object[] { message, breaks });
+                BeginInvoke(new Action<string, int>(LogOperation), new object[] { message, breaks });
             }
             else
             {
@@ -207,6 +207,7 @@ namespace SyncMon
                 {
                     log.AppendText(" " + DateTime.Now.ToString("HH:mm:ss") + ": " + message);
                     intLink.Log(message);
+                    FileLog.Write(message);
                 }
                 else
                 {
@@ -218,6 +219,7 @@ namespace SyncMon
                     log.SelectionStart = log.Text.Length;
                     log.ScrollToCaret();
                     intLink.Log(message);
+                    FileLog.Write(message);
                 }
             }
         }
@@ -1523,8 +1525,8 @@ namespace SyncMon
                     LogOperation("Client Name(first | last): " + fname + " " + lname, 1);
                     LogOperation("Company Name: " + companyName, 1);
 
-                    Data dt = Translate(cNum, invoiceInfo.FeeType, companyName, "", invoiceInfo.notes, intLink.GetAccountNumber(invoiceInfo.Glid), invoiceInfo.FreqUsage);
-                    DateTime invoiceValidity = intLink.GetValidity(docInfo.OriginalDocumentID);
+                    Data dt = Translate(cNum, invoiceInfo.FeeType, companyName, "", invoiceInfo.notes, intLink.GetAccountNumber(invoiceInfo.Glid), invoiceInfo.FreqUsage); // application stops here...
+                    DateTime invoiceValidity = intLink.GetValidity(docInfo.OriginalDocumentID); // or here...
 
                     int financialyear = 0;
                     if (invoiceValidity.Month > 3)
@@ -1546,7 +1548,6 @@ namespace SyncMon
 
                     if (isPeriodCreated(financialyear))
                     {
-
                         if (invoiceInfo.Glid < 5000 || data != null)
                         {
                             LogOperation("CreditGL: " + invoiceInfo.Glid, 1);
@@ -1815,7 +1816,6 @@ namespace SyncMon
                         }
                         else
                         {
-
                             if (dt.feeType == "SLF" && invoiceInfo.notes == "Renewal")
                             {
                                 stat = InvBatchInsert(dt.customerId, docInfo.OriginalDocumentID.ToString(), dt.companyName, dt.fcode, invoiceInfo.amount.ToString(), getBatch(RENEWAL_SPEC + invoiceValidity.ToString("MMMM") + " " + invoiceValidity.Year.ToString(), docInfo.OriginalDocumentID.ToString()).ToString());
