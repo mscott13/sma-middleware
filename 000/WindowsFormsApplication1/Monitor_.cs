@@ -52,19 +52,19 @@ namespace SyncMon
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
         SqlTableDependency<SqlNotify_DocumentInfo> tableDependInfo;
 
-        public static SqlConnection connGeneric = new SqlConnection(smaDbserv);
-        public static SqlConnection connIntegration = new SqlConnection(IntegrationDB_SMA);
-        public static SqlConnection connMsgQueue = new SqlConnection(IntegrationDB_SMA);
+        public static SqlConnection connGeneric;
+        public static SqlConnection connIntegration;
+        public static SqlConnection connMsgQueue;
 
-        Session session = new Session();
+        Session session;
         DBLink mDBLinkCmpRW;
 
-        AccpacSession mAccpacSession = new AccpacSession();
+        AccpacSession mAccpacSession;
         AccpacDBLink mAccpacDBLink;
 
         int prevInvoice = -100;
-        DateTime prevTime = DateTime.Now.AddDays(2);
-        DateTime currentTime = DateTime.Now;
+        DateTime prevTime;
+        DateTime currentTime;
         string dbConn;
 
         Integration intLink;
@@ -107,6 +107,16 @@ namespace SyncMon
             btnStop.Enabled = false;
             dbConn = smaDbserv;
 
+            connGeneric = new SqlConnection(smaDbserv);
+            connIntegration = new SqlConnection(IntegrationDB_SMA);
+            connMsgQueue = new SqlConnection(IntegrationDB_SMA);
+
+            prevTime = DateTime.Now.AddDays(2);
+            currentTime = DateTime.Now;
+
+            session = new Session();
+            mAccpacSession = new AccpacSession();
+
             using (tableDependPay = new SqlTableDependency<SqlNotify_Pay>(dbConn, "tblARPayments"))
             {
                 tableDependPay.OnChanged += TableDependPay_OnChanged;
@@ -125,7 +135,7 @@ namespace SyncMon
                 tableDependInfo.OnError += TableDependInfo_OnError;
             }
 
-            this.Text += " | " + DateTime.Now.Date.ToLongDateString();
+            Text += " | " + DateTime.Now.Date.ToLongDateString();
             intLink = new Integration(connGeneric, connIntegration, connMsgQueue);
             LogOperation("Program Started", 0);
 
@@ -1497,18 +1507,24 @@ namespace SyncMon
 
             if (e.ChangeType == ChangeType.Insert)
             {
+                FileLog.Write("Event Type: INSERT");
                 if (docInfo.DocumentType == INVOICE)
                 {
                     LogOperation("Incoming Invoice", 2);
                     InvoiceInfo invoiceInfo = new InvoiceInfo();
+                    FileLog.Write("Invoice Info Object: "+invoiceInfo.ToString());
 
                     while (invoiceInfo.amount == 0)
                     {
+                        FileLog.Write("Waiting for invoice amount to update, current value: " + invoiceInfo.amount.ToString());
                         invoiceInfo = intLink.getInvoiceDetails(docInfo.OriginalDocumentID);
                         Thread.Sleep(1000);
                     }
-
+                    FileLog.Write("Invoice amount: " + invoiceInfo.amount.ToString());
+                    
                     List<string> clientInfo = intLink.getClientInfo_inv(invoiceInfo.CustomerId.ToString());
+                    FileLog.Write("Client Info: " + clientInfo.ToString());
+
                     string companyName = clientInfo[0].ToString();
                     string cNum = clientInfo[1].ToString();
                     string fname = clientInfo[2].ToString();
@@ -1525,8 +1541,12 @@ namespace SyncMon
                     LogOperation("Client Name(first | last): " + fname + " " + lname, 1);
                     LogOperation("Company Name: " + companyName, 1);
 
+                    FileLog.Write("Translation started...");
                     Data dt = Translate(cNum, invoiceInfo.FeeType, companyName, "", invoiceInfo.notes, intLink.GetAccountNumber(invoiceInfo.Glid), invoiceInfo.FreqUsage); // application stops here...
+                    FileLog.Write("Object result: "+dt.ToString());
+
                     DateTime invoiceValidity = intLink.GetValidity(docInfo.OriginalDocumentID); // or here...
+                    FileLog.Write("Invoice Validity: " + invoiceValidity);
 
                     int financialyear = 0;
                     if (invoiceValidity.Month > 3)
@@ -1537,13 +1557,17 @@ namespace SyncMon
                     {
                         financialyear = invoiceValidity.Year;
                     }
+                    FileLog.Write("Financial Year: " + financialyear);
 
                     List<string> data = intLink.checkInvoiceAvail(docInfo.OriginalDocumentID.ToString());
                     int r = intLink.getInvoiceReference(docInfo.OriginalDocumentID);
+                    FileLog.Write("Invoice Reference number: " + r);
 
                     if (r != -1)
                     {
+                        FileLog.Write("Getting Maj Details...");
                         m = intLink.getMajDetail(r);
+                        FileLog.Write(m.ToString());
                     }
 
                     if (isPeriodCreated(financialyear))

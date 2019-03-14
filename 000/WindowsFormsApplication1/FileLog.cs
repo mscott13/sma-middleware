@@ -15,7 +15,6 @@ namespace SyncMon
 
         public static void Write(string msg)
         {
-            // string result = DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + ": " + msg;
             var str_builder = new StringBuilder();
             string result = str_builder.Append(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + ": ")
                             .Append(msg)
