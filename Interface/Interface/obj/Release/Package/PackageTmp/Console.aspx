@@ -141,7 +141,7 @@
 
             function sendStopMsg() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/SendMessage',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/SendMessage',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ msg: "0x69" }),
@@ -157,7 +157,7 @@
 
             function sendStartMsg() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/SendMessage',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/SendMessage',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ msg: "0x63" }),
@@ -173,7 +173,7 @@
 
             function sendHideMsg() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/SendMessage',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/SendMessage',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ msg: "0x68" }),
@@ -189,7 +189,7 @@
 
             function sendShowMsg() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/SendMessage',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/SendMessage',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ msg: "0x65" }),
@@ -205,7 +205,7 @@
 
             function getUserCount() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetUserCount',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/GetUserCount',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},
@@ -221,7 +221,7 @@
 
             function GetLogMessages() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/IntegrationService.asmx/GetLog',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/IntegrationService.asmx/GetLog',
                     type: 'post',
                     contentType: 'application/json',
                     data: {},
@@ -240,7 +240,7 @@
 
             function isOnline() {
                 $.ajax({
-                    url: 'http://sma-dbsrv.sma.gov.jm/api/integrationservice.asmx/GetMonStat',
+                    url: 'http://erp-srvr.sma.gov.jm:8080/integrationservice.asmx/GetMonStat',
                     type: 'POST',
                     contentType: 'application/json',
                     data: {},

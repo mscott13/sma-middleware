@@ -11,7 +11,7 @@ namespace WebApplication4
     class brian_businessClass
     {
         //static string connection = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION; MultipleActiveResultSets=True; Integrated Security=True";
-        static string connection = "Data Source=SMA-DBSRV\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION; MultipleActiveResultSets=True; Integrated Security=True";
+        static string connection = "Data Source=ERP-SRVR\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION; MultipleActiveResultSets=True; Integrated Security=True";
         [DataObjectMethod(DataObjectMethodType.Insert)]
         public static int InsertTransferredPayments(string CustomerID)
         {

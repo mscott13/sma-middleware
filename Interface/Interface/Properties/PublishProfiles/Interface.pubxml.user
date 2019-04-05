@@ -6,14 +6,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\ASMS-ACCPAC-1\Desktop\release</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\mscott\Desktop\Middleware GUI</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="App_Code/Deffered Working.txt">
-      <publishTime>08/22/2017 12:52:54</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/ACCPAC.Advantage.dll">
       <publishTime>12/18/2013 23:23:48</publishTime>
@@ -22,574 +22,577 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/18/2013 23:23:36</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/DocumentFormat.OpenXml.dll">
-      <publishTime>09/01/2012 02:24:26</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Interface.dll">
-      <publishTime>03/20/2018 04:27:41</publishTime>
+      <publishTime>04/04/2019 16:34:36</publishTime>
     </File>
     <File Include="bin/Interface.pdb">
-      <publishTime>03/20/2018 04:27:41</publishTime>
+      <publishTime>04/04/2019 16:34:36</publishTime>
     </File>
     <File Include="bin/itextsharp.dll">
-      <publishTime>05/12/2016 09:34:46</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/itextsharp.pdfa.dll">
-      <publishTime>05/12/2016 09:35:04</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/itextsharp.xtra.dll">
-      <publishTime>05/12/2016 09:35:14</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.DependencyCollector.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Web.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.WindowsServer.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.ApplicationInsights.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:40</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>02/12/2019 17:01:00</publishTime>
     </File>
     <File Include="ChangePassword.aspx">
-      <publishTime>06/17/2016 11:19:10</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Console.aspx">
-      <publishTime>03/20/2018 00:20:25</publishTime>
+      <publishTime>04/04/2019 16:37:26</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/bootstrap-flex.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/bootstrap-grid.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/bootstrap-reboot.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/bootstrap.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_alert.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_background-variant.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_border-radius.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_breakpoints.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_buttons.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_cards.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_center-block.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_clearfix.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_forms.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_gradients.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_grid-framework.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_grid.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_hover.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_image.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_label.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_list-group.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_lists.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_nav-divider.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_navbar-align.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_pagination.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_progress.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_pulls.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_reset-filter.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_reset-text.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_resize.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_screen-reader.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_size.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_tab-focus.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_table-row.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_text-emphasis.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_text-hide.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/mixins/_text-truncate.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_alert.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_animation.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_breadcrumb.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_button-group.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_buttons.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_card.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_carousel.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_close.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_code.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_custom-forms.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_dropdown.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_forms.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_grid.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_images.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_input-group.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_jumbotron.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_labels.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_list-group.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_media.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_mixins.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_modal.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_nav.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_navbar.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_normalize.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_pager.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_pagination.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_popover.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_print.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_progress.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_reboot.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_responsive-embed.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_tables.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_tooltip.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_type.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_utilities-background.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_utilities-responsive.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_utilities-spacing.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_utilities.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Content/bootstrap/_variables.scss">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>06/16/2016 14:55:20</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="DeferredIncome.aspx">
-      <publishTime>12/29/2017 11:47:22</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="deferred_custom.css">
-      <publishTime>02/21/2018 11:42:14</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="DeleteUser.aspx">
-      <publishTime>06/17/2016 11:47:50</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="grid.css">
-      <publishTime>09/24/2016 04:48:36</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/check.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/envelope.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/invoice.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/key.png">
-      <publishTime>06/17/2016 10:02:52</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/panel-offline.png">
-      <publishTime>06/08/2016 15:03:40</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/panel-online.png">
-      <publishTime>06/08/2016 15:03:40</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/panel-startserv.png">
-      <publishTime>06/16/2016 16:08:32</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/report.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/team.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/user.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="GridImages/wrench.png">
-      <publishTime>06/06/2016 09:18:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/496.gif">
-      <publishTime>05/30/2016 11:49:12</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/add-512.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/approve-invoice.png">
-      <publishTime>05/26/2016 04:39:08</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/back.png">
-      <publishTime>06/07/2016 13:22:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/bank-icon.png">
-      <publishTime>05/27/2016 01:49:26</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/bank-symbol.png">
-      <publishTime>05/27/2016 02:21:14</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/bank.png">
-      <publishTime>05/28/2016 16:34:38</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/businessman.png">
-      <publishTime>05/27/2016 11:07:16</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/calendar.png">
-      <publishTime>05/26/2016 04:08:36</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/clock.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/coins.png">
-      <publishTime>05/27/2016 03:48:02</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/database.png">
-      <publishTime>06/03/2016 10:54:42</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/diskette.png">
-      <publishTime>06/06/2016 09:43:56</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/dollar-bill.png">
-      <publishTime>05/26/2016 23:52:38</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/dollar-symbol.png">
-      <publishTime>12/09/2016 17:01:12</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/exc.png">
-      <publishTime>05/27/2016 03:51:32</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/expire-calendar.png">
-      <publishTime>05/27/2016 03:03:34</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/fabric_of_squares_gray.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/feature.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/file.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/geometry.png">
-      <publishTime>05/26/2016 03:55:32</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/invoice-512.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/invoice-transfer.png">
-      <publishTime>05/27/2016 11:15:32</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/invoice.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/linedpaper.png">
-      <publishTime>05/26/2016 23:32:58</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/load.png">
-      <publishTime>05/26/2016 14:50:20</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/logo.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/money-bag-2.png">
-      <publishTime>12/09/2016 17:13:10</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/money-bag.png">
-      <publishTime>05/26/2016 23:58:04</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/newcustomer.png">
-      <publishTime>06/03/2016 15:08:18</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/offline.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/online.png">
-      <publishTime>05/26/2016 04:08:36</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/payBatch.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/price_list-512.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/receipt.png">
-      <publishTime>05/29/2016 01:59:44</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/service-not-started.png">
-      <publishTime>05/29/2016 06:49:46</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/settings.png">
-      <publishTime>05/26/2016 23:09:52</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/test2.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/transfer-icon.png">
-      <publishTime>06/03/2016 12:03:20</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/transferred.png">
-      <publishTime>05/30/2016 15:11:42</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/user.png">
-      <publishTime>05/29/2016 01:56:06</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Images/wait.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="jquery.mCustomScrollbar.css">
-      <publishTime>06/06/2016 09:19:44</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Login.aspx">
-      <publishTime>06/29/2016 18:12:20</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="MenuGrid.aspx">
-      <publishTime>02/19/2018 13:45:33</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="MonthlyCustomers.aspx">
-      <publishTime>12/29/2017 11:46:21</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="MonthlyInvoices.aspx">
-      <publishTime>12/29/2017 11:46:35</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="MonthlyPayments.aspx">
-      <publishTime>12/29/2017 11:47:20</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Notifications.aspx">
-      <publishTime>03/20/2018 00:40:03</publishTime>
+      <publishTime>04/04/2019 17:10:12</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="RegisterAdmin.aspx">
-      <publishTime>07/01/2016 15:14:38</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="ResetPassword.aspx">
-      <publishTime>06/17/2016 11:46:16</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/ai.0.15.0-build58334.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/ai.0.15.0-build58334.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/bootstrap.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/bootstrap.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/jquery-2.0.0.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/jquery-2.0.0.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/jquery-2.0.0.min.map">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/jquery-3.2.1.min.js">
-      <publishTime>01/04/2018 16:32:24</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="scripts/jquery.mCustomScrollbar.concat.min.js">
-      <publishTime>06/06/2016 09:23:56</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="SignUp.aspx">
-      <publishTime>06/30/2016 09:58:18</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>06/07/2016 11:29:04</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="style.css">
-      <publishTime>05/24/2017 15:49:21</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="UpdateBudget.aspx">
-      <publishTime>06/10/2016 12:27:58</publishTime>
+      <publishTime>04/04/2019 09:45:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/20/2018 04:27:41</publishTime>
+      <publishTime>04/04/2019 16:41:05</publishTime>
     </File>
   </ItemGroup>
 </Project>

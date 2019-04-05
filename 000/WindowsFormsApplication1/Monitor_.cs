@@ -36,14 +36,14 @@ namespace SyncMon
         public const int RECEIPT = 11;
         public const string ONE_DAY = "1";
         public const int RESET_FREQUENCY = 86400;
-        public const string SAGE_COMPANY = "SANLTD";
+        public const string SAGE_COMPANY = "SMJLTD";
 
         private int Code = 21;
         bool hidden = false;
         private bool monitorRunning = false;
 
-        static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = @"Data Source=ERP-SRVR\ASMSDEV;Initial Catalog=AsmsGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = @"Data Source=ERP-SRVR\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         //static string smaDbserv = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
         //static string IntegrationDB_SMA = "Data Source=SMA-DBSRV\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
@@ -2823,7 +2823,7 @@ namespace SyncMon
                 var json = serialize.Serialize(stat);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                client.UploadString("http://localhost:8080/IntegrationService.asmx/SetMonStat", "POST", json);
+                client.UploadString("http://erp-srvr.sma.gov.jm:8080/IntegrationService.asmx/SetMonStat", "POST", json);
             }
             catch (Exception ex)
             {
@@ -2862,7 +2862,7 @@ namespace SyncMon
                 var json = serialize.Serialize(param);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                string id = client.UploadString("http://localhost:8080/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
+                string id = client.UploadString("http://erp-srvr.sma.gov.jm:8080/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
             }
             catch (Exception ex)
             {
