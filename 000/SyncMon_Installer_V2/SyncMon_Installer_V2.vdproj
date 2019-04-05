@@ -112,12 +112,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_09A5742991CFA42A7AB7D455DC042FD4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1A8CAFADB6CB4245BD1D0332E1A91D70"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -163,6 +157,12 @@
         "OwnerKey" = "8:_2DD5F16A9324E912235F586D10A4F066"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_09A5742991CFA42A7AB7D455DC042FD4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -181,6 +181,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -197,6 +205,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -681,6 +697,20 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_1A8CAFADB6CB4245BD1D0332E1A91D70"
             "Folder" = "8:_96774C1DE4F047FC88B216AA49CDFD4D"
+            "WorkingFolder" = "8:_50B8280D1AD44256AEDD9C16AAF2B293"
+            "Icon" = "8:_33C535B033FD465EBE3D0589191EBA55"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EA4A1225E8984C1BB3ECEAD83DAA3BEC"
+            {
+            "Name" = "8:SyncMon"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_1A8CAFADB6CB4245BD1D0332E1A91D70"
+            "Folder" = "8:_9ED2C49C25F64D90B1B83F5EEC2E7C71"
             "WorkingFolder" = "8:_50B8280D1AD44256AEDD9C16AAF2B293"
             "Icon" = "8:_33C535B033FD465EBE3D0589191EBA55"
             "Feature" = "8:"

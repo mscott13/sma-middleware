@@ -10,7 +10,7 @@ namespace WebApplication4
 {
     public class Integration
     {
-        string dbsrvIntegration = @"Data Source=SERVER-ERP2\TCIASMS;Initial Catalog = ASMSSAGEINTEGRATION; Integrated Security = True";
+        string dbsrvIntegration = @"Data Source=ERP-SRVR\TCIASMS;Initial Catalog =ASMSSAGEINTEGRATION; Integrated Security=True";
         //string dbsrvIntegration = @"Data Source=SMA-DBSRV\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         public int GetInvoiceCount()
