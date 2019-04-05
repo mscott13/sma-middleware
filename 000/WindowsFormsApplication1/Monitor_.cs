@@ -42,11 +42,8 @@ namespace SyncMon
         bool hidden = false;
         private bool monitorRunning = false;
 
-        //static string smaDbserv = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        //static string IntegrationDB_SMA = "Data Source=SERVER-ERP\\ASMSDEV;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
-
-        static string smaDbserv = "Data Source=SERVER-ERP2\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
-        static string IntegrationDB_SMA = "Data Source=SERVER-ERP2\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
+        static string smaDbserv = "Data Source=ERP-SRVR\\TCIASMS;Initial Catalog=ASMSGenericMaster;Integrated Security=True";
+        static string IntegrationDB_SMA = "Data Source=ERP-SRVR\\TCIASMS;Initial Catalog=ASMSSAGEINTEGRATION;Integrated Security=True";
 
         SqlTableDependency<SqlNotify_Pay> tableDependPay;
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
@@ -2847,7 +2844,7 @@ namespace SyncMon
                 var json = serialize.Serialize(stat);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                client.UploadString("http://server-erp2.sma.gov.jm:1786/IntegrationService.asmx/SetMonStat", "POST", json);
+                client.UploadString("http://erp-srvr.sma.gov.jm:1786/IntegrationService.asmx/SetMonStat", "POST", json);
             }
             catch (Exception ex)
             {
@@ -2886,7 +2883,7 @@ namespace SyncMon
                 var json = serialize.Serialize(param);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                string id = client.UploadString("http://server-erp2.sma.gov.jm:1786/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
+                string id = client.UploadString("http://erp-srvr.sma.gov.jm:1786/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
             }
             catch (Exception ex)
             {
