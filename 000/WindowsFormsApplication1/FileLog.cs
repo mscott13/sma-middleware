@@ -15,22 +15,29 @@ namespace SyncMon
 
         public static void Write(string msg)
         {
-            var str_builder = new StringBuilder();
-            string result = str_builder.Append(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + ": ")
-                            .Append(msg)
-                            .AppendLine()
-                            .AppendLine()
-                            .ToString();
+            //var str_builder = new StringBuilder();
+            //string result = str_builder.Append(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + ": ")
+            //                .Append(msg)
+            //                .AppendLine()
+            //                .AppendLine()
+            //                .ToString();
 
-            if (!Directory.Exists(directory))
-            {
-                Directory.CreateDirectory(directory);
-                File.AppendAllText(path, result);
-            }
-            else
-            {
-                File.AppendAllText(path, result);
-            }
+            //try
+            //{
+            //    if (!Directory.Exists(directory))
+            //    {
+            //        Directory.CreateDirectory(directory);
+            //        File.AppendAllText(path, result);
+            //    }
+            //    else
+            //    {
+            //        File.AppendAllText(path, result);
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    string e_msg = e.Message; //temporary
+            //}
         }
     }
 }
