@@ -160,11 +160,11 @@ namespace SyncMon
                 LogOperation("Initialize Session", 2);
 
                 session.Init("", "XY", "XY1000", "62A");
-                session.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0);
+                session.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0);
                 mDBLinkCmpRW = session.OpenDBLink(DBLinkType.Company, DBLinkFlags.ReadWrite);
 
                 mAccpacSession.Init("", "XY", "XY1000", "62A");
-                mAccpacSession.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0, "");
+                mAccpacSession.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0, "");
                 mAccpacDBLink = mAccpacSession.OpenDBLink(tagDBLinkTypeEnum.DBLINK_COMPANY, tagDBLinkFlagsEnum.DBLINK_FLG_READWRITE);
 
                 if (!StatusUpdate.Enabled)
