@@ -467,6 +467,7 @@ namespace WebApplication4
         {
             int months = ((edate.Year - sdate.Year) * 12) + edate.Month - sdate.Month;
             if (sdate.Day == 1 && edate.Day == DateTime.DaysInMonth(edate.Year, edate.Month)) months++;
+            if (edate.Day == 28 && edate.Month == 2 && DateTime.IsLeapYear(edate.Year)) months++;
             return months;
         }
 
