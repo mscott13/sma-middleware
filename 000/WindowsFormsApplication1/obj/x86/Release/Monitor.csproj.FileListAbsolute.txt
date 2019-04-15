@@ -282,3 +282,4 @@ C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplicat
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\x86\Release\Monitor.csproj.CopyComplete
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\x86\Release\SyncMon.exe
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\x86\Release\SyncMon.pdb
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\000\WindowsFormsApplication1\obj\x86\Release\Monitor.csprojAssemblyReference.cache

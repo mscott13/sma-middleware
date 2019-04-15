@@ -36,7 +36,7 @@ namespace SyncMon
         public const int RECEIPT = 11;
         public const string ONE_DAY = "1";
         public const int RESET_FREQUENCY = 86400;
-        public const string SAGE_COMPANY = "SMJLTD";
+        public const string SAGE_COMPANY = "SMALTD";
 
         private int Code = 21;
         bool hidden = false;
@@ -153,11 +153,11 @@ namespace SyncMon
                 LogOperation("Initialize Session", 2);
 
                 session.Init("", "XY", "XY1000", "62A");
-                session.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0);
+                session.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0);
                 mDBLinkCmpRW = session.OpenDBLink(DBLinkType.Company, DBLinkFlags.ReadWrite);
 
                 mAccpacSession.Init("", "XY", "XY1000", "62A");
-                mAccpacSession.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0, "");
+                mAccpacSession.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0, "");
                 mAccpacDBLink = mAccpacSession.OpenDBLink(tagDBLinkTypeEnum.DBLINK_COMPANY, tagDBLinkFlagsEnum.DBLINK_FLG_READWRITE);
 
                 if (!StatusUpdate.Enabled)
@@ -2823,7 +2823,7 @@ namespace SyncMon
                 var json = serialize.Serialize(stat);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                client.UploadString("http://erp-srvr.sma.gov.jm:8080/IntegrationService.asmx/SetMonStat", "POST", json);
+                client.UploadString("http://localhost:8080/IntegrationService.asmx/SetMonStat", "POST", json);
             }
             catch (Exception ex)
             {
