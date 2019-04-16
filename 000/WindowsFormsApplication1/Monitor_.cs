@@ -2862,7 +2862,7 @@ namespace SyncMon
                 var json = serialize.Serialize(param);
                 var client = new WebClient();
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
-                string id = client.UploadString("http://erp-srvr.sma.gov.jm:8080/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
+                string id = client.UploadString("http://localhost:8080/IntegrationService.asmx/Generate_SaveDeferredRpt", "POST", json);
             }
             catch (Exception ex)
             {
@@ -3220,11 +3220,11 @@ namespace SyncMon
                                     LogOperation("Initialize Session", 2);
 
                                     session.Init("", "XY", "XY1000", "62A");
-                                    session.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0);
+                                    session.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0);
                                     mDBLinkCmpRW = session.OpenDBLink(DBLinkType.Company, DBLinkFlags.ReadWrite);
 
                                     mAccpacSession.Init("", "XY", "XY1000", "62A");
-                                    mAccpacSession.Open("ADMIN", "ADMIN", SAGE_COMPANY, DateTime.Today, 0, "");
+                                    mAccpacSession.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0, "");
                                     mAccpacDBLink = mAccpacSession.OpenDBLink(tagDBLinkTypeEnum.DBLINK_COMPANY, tagDBLinkFlagsEnum.DBLINK_FLG_READWRITE);
 
                                     if (!StatusUpdate.Enabled)

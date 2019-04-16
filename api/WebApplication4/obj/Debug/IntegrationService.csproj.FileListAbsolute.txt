@@ -562,3 +562,4 @@ C:\Users\mscott\Desktop\Git Repositories\sma-middleware\api\WebApplication4\obj\
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\api\WebApplication4\obj\Debug\IntegrationService.csproj.CopyComplete
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\api\WebApplication4\obj\Debug\WebApplication4.dll
 C:\Users\mscott\Desktop\Git Repositories\sma-middleware\api\WebApplication4\obj\Debug\WebApplication4.pdb
+C:\Users\mscott\Desktop\Git Repositories\sma-middleware\api\WebApplication4\obj\Debug\IntegrationService.csprojAssemblyReference.cache
