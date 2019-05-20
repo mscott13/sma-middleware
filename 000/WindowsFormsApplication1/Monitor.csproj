@@ -127,12 +127,12 @@
     <Compile Include="CreditNoteInfo.cs" />
     <Compile Include="DataWrapper.cs" />
     <Compile Include="DeferredData.cs" />
+    <Compile Include="FileLog.cs" />
     <Compile Include="InvoiceList.cs" />
     <Compile Include="PaymentInfo.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="InvoiceInfo.cs" />
     <Compile Include="PrepaymentData.cs" />
-    <Compile Include="report.cs" />
     <Compile Include="ReturnData.cs" />
     <Compile Include="SqlNotifyPaymentCredit.cs" />
     <Compile Include="SqlNotify_DocumentInfo.cs" />
