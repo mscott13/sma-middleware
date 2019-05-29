@@ -2496,14 +2496,14 @@ namespace SyncMon
             }
             catch (Exception ex)
             {
-                string e_path = mAccpacSession.Errors.GenerateErrorFile();
+                string e_path = mAccpacSession.Errors.GenerateErrorFile().Replace("\\", "");
                 LogOperation("Error file: " + e_path, 1);
                 AccpacErrors errors = mAccpacSession.Errors;
-                string a = errors.Item(0);
             }
         }
 
         private void TableDependPay_OnChanged(object sender, RecordChangedEventArgs<SqlNotify_Pay> e)
+
         {
             var entity = e.Entity;
             if (e.ChangeType == ChangeType.Insert)
@@ -2796,7 +2796,7 @@ namespace SyncMon
                 var d = b1_arInvoicePaymentSchedules.Session.Errors;
                 var e = b1_arInvoiceHeaderOptFields.Session.Errors;
                 var f = b1_arInvoiceDetailOptFields.Session.Errors;
-
+                var s = mAccpacSession.Errors.Count;
                 return null;
 
             }
