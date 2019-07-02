@@ -112,7 +112,9 @@ namespace SyncMon
 
             prevTime = DateTime.Now.AddDays(2);
             currentTime = DateTime.Now;
-
+            string filename = @"\middleware_log.txt";
+            string path = Environment.SpecialFolder.MyDocuments + filename;
+            File.AppendAllText("test", Environment.SpecialFolder.MyDocuments + filename);
             mAccpacSession = new AccpacSession();
 
             using (tableDependPay = new SqlTableDependency<SqlNotify_Pay>(dbConn, "tblARPayments"))
@@ -160,7 +162,7 @@ namespace SyncMon
             {
                 LogOperation("Initialize Session", 2);
 
-                mAccpacSession.Init("", "XY", "XY1000", "62A");
+                mAccpacSession.Init("", "XY", "XY1000", "63A");
                 mAccpacSession.Open("ADMIN", "SPECTRUM9", SAGE_COMPANY, DateTime.Today, 0, "");
                 mAccpacDBLink = mAccpacSession.OpenDBLink(tagDBLinkTypeEnum.DBLINK_COMPANY, tagDBLinkFlagsEnum.DBLINK_FLG_READWRITE);
 
@@ -195,6 +197,7 @@ namespace SyncMon
                 Code = 21;
             }
             monitorRunning = true;
+            LogOperation("Session status: " + mAccpacSession.IsOpened.ToString(), 1);
         }
 
         void LogOperation(string message, int breaks)
@@ -2739,7 +2742,7 @@ namespace SyncMon
                 if (gotOne)
                 {
                     b1_arInvoiceBatch.Process();
-                    b1_arInvoiceBatch.Fields.FieldByName["CNTBTCH"].set_Value("1545000");
+                    b1_arInvoiceBatch.Fields.FieldByName["CNTBTCH"].set_Value(batchId);
                     b1_arInvoiceBatch.Read();
                     b1_arInvoiceHeader.RecordCreate(tagViewRecordCreateEnum.VIEW_RECORD_CREATE_DELAYKEY);
                     b1_arInvoiceDetail.Cancel();
