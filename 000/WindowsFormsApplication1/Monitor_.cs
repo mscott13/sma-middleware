@@ -49,8 +49,6 @@ namespace SyncMon
         SqlTableDependency<SqlNotifyCancellation> tableDependCancellation;
         SqlTableDependency<SqlNotify_DocumentInfo> tableDependInfo;
 
-        
-
         public static SqlConnection connGeneric;
         public static SqlConnection connIntegration;
         public static SqlConnection connMsgQueue;
